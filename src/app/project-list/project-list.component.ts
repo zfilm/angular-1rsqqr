@@ -9,8 +9,8 @@ import { projects } from '../projects';
 export class ProjectListComponent {
   projects = projects;
 
-  onNotify() {
-    window.alert('This project is Done');
+  onNotify(project) {
+    window.alert('This project is ' +  project.completed + ' % Done');
   }
 
 

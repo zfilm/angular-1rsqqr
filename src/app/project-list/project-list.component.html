@@ -1,4 +1,4 @@
-<h2>Projects</h2>
+<h2>Projects in total {{ projects.length }} </h2>
 
 <div *ngFor="let project of projects">
  <h3>
@@ -13,6 +13,6 @@
 
   <app-project-alerts
   [project]="project"
-  (notify)="onNotify()">
+  (notify)="onNotify(project)">
 </app-project-alerts>
 </div>

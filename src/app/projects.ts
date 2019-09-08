@@ -3,7 +3,7 @@ export const projects = [
     id: "A100",
     name: 'Dokumentasjoningeniør',
     company: 'Company 1',
-    completed: 80,
+    completed: 50,
     description: 'A large phone with one of the best screens'
   },
   {
