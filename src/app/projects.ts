@@ -18,7 +18,7 @@ export const projects = [
     name: 'Avdelingsleder',
     company: 'Company 2',
     completed: 67,
-    description: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+    description: ''
   },
   {
     id: "A102",
