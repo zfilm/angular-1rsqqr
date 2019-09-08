@@ -10,4 +10,9 @@
     <p *ngIf="project.description">
     Description: {{ project.description }}
   </p>
+
+  <app-project-alerts
+  [project]="project"
+  (notify)="onNotify()">
+</app-project-alerts>
 </div>

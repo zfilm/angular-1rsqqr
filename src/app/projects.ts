@@ -17,7 +17,7 @@ export const projects = [
     id: "A102",
     name: 'Avdelingsleder',
     company: 'Company 2',
-    completed: 67,
+    completed: 100,
     description: ''
   },
   {
