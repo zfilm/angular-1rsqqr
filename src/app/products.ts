@@ -12,7 +12,7 @@ export const products = [
     description: 'A great phone with one of the best cameras'
   },
   {
-     id: 'A102',
+    id: 'A102',
     name: 'Phone Standard',
     price: 299,
     description: ''
