@@ -7,15 +7,18 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { ProjectAlertsComponent } from './project-alerts/project-alerts.component';
+
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProjectListComponent },
+      { path: '', component: ProductListComponent },
+      { path: 'products/:id', component: ProductDetailsComponent }
     ])
   ],
   declarations: [
@@ -24,7 +27,8 @@ import { ProjectAlertsComponent } from './project-alerts/project-alerts.componen
     ProductListComponent,
     ProductAlertsComponent,
     ProjectListComponent,
-    ProjectAlertsComponent
+    ProjectAlertsComponent,
+    ProductDetailsComponent
   ],
   bootstrap: [ AppComponent ]
 })
