@@ -17,8 +17,9 @@ import { ProjectAlertsComponent } from './project-alerts/project-alerts.componen
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
-      { path: 'products/:id', component: ProductDetailsComponent }
+    //  { path: '', component: ProductListComponent },
+    //  { path: 'products/:id', component: ProductDetailsComponent }
+    { path: '', component: ProjectListComponent },
     ])
   ],
   declarations: [
