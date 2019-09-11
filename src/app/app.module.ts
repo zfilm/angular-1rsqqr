@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { MatCardModule } from '@angular/material/card';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
@@ -16,6 +16,7 @@ import { ProjectAlertsComponent } from './project-alerts/project-alerts.componen
   imports: [
     BrowserModule,
     ReactiveFormsModule,
+    MatCardModule,
     RouterModule.forRoot([
     //  { path: '', component: ProductListComponent },
     //  { path: 'products/:id', component: ProductDetailsComponent }
