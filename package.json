@@ -12,6 +12,7 @@
     "@angular/material": "^8.2.0",
     "@angular/platform-browser": "8.2.5",
     "@angular/platform-browser-dynamic": "8.2.5",
+    "@angular/pwa": "^0.803.4",
     "@angular/router": "8.2.5",
     "angular-in-memory-web-api": "0.8.0",
     "core-js": "2.6.9",

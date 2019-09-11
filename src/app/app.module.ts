@@ -2,9 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MatCardModule } from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+'@angular/material/progress-spinner';
+import { MatToolbarModule,
+         MatMenuModule,
+         MatIconModule,
+         MatCardModule,
+         MatButtonModule,
+         MatTableModule,
+         MatDividerModule,
+         MatProgressSpinnerModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
@@ -17,8 +24,14 @@ import { ProjectAlertsComponent } from './project-alerts/project-alerts.componen
 @NgModule({
   imports: [
     BrowserModule,
-    ReactiveFormsModule,
+    MatToolbarModule,
+    MatMenuModule,
+    MatIconModule,
     MatCardModule,
+    MatButtonModule,
+    MatTableModule,
+    MatDividerModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     MatProgressSpinnerModule,
     RouterModule.forRoot([
