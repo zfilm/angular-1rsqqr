@@ -22,9 +22,9 @@ import { ProjectAlertsComponent } from './project-alerts/project-alerts.componen
     BrowserAnimationsModule,
     MatProgressSpinnerModule,
     RouterModule.forRoot([
-    //  { path: '', component: ProductListComponent },
-    //  { path: 'products/:id', component: ProductDetailsComponent }
-    { path: '', component: ProjectListComponent },
+      //  { path: '', component: ProductListComponent },
+      //  { path: 'products/:id', component: ProductDetailsComponent }
+      { path: '', component: ProjectListComponent },
     ])
   ],
   declarations: [
@@ -36,7 +36,7 @@ import { ProjectAlertsComponent } from './project-alerts/project-alerts.componen
     ProjectAlertsComponent,
     ProductDetailsComponent
   ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
 
